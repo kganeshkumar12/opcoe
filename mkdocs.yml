@@ -1,0 +1,41 @@
+site_name: Cloud COE
+
+theme:
+  name: material
+  custom_dir: docs_custom_theme
+  features:
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: 'white'
+      accent: 'blue'
+      background: 'white'
+      text: 'black'
+
+markdown_extensions:
+  - attr_list
+
+nav:
+  - Home: index.md
+  - Migration Status Dashboard: migration-status-dashboard.md
+  - Documents Repository: documentsrepository/documents-repository.md
+  - Migration Process Overview: migration-process-overview.md
+  - "Introduction": guide/intro.md
+  - "Installation": guide/install.md
+  - "Usage": guide/usage.md
+  - "Introduction": guide/intro.md
+  - "Installation": guide/install.md
+  - "Usage": guide/usage.md
+  - "Introduction": guide/intro.md
+  - "Installation": guide/install.md
+  - "Usage": guide/usage.md
+
+extra:
+  generator: false
+
+plugins:
+  - search
+  - include-markdown

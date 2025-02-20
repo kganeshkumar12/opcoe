@@ -1,0 +1,32 @@
+{
+  "name": "optum-coe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.26.0",
+    "@babel/preset-react": "^7.26.3",
+    "babel-loader": "^9.2.1",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "webpack": "^5.97.1",
+    "webpack-cli": "^6.0.1"
+  },
+  "dependencies": {
+    "axios": "^1.7.9",
+    "file-loader": "^6.2.0",
+    "js-xlsx": "^0.8.22",
+    "recharts": "^2.15.0",
+    "url-loader": "^4.1.1",
+    "xlsx": "^0.18.5"
+  }
+}

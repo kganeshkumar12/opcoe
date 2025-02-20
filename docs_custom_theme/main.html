@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{% block styles %}
+{{ super() }}
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/zoomist@2/zoomist.css" />
+<link rel="stylesheet" href="{{ base_url }}/assets/stylesheets/base.css" />
+{% endblock %}
+
+{% block content %}
+{{ super() }}
+{% endblock %}
+
+{% block libs %}
+{{ super() }}
+<script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+<script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+<script src="https://unpkg.com/axios@1.6.7/dist/axios.min.js"></script>
+<script src="https://unpkg.com/xlsx/dist/xlsx.full.min.js"></script>
+<script src="https://unpkg.com/prop-types/prop-types.min.js"></script>
+<script src="https://unpkg.com/recharts/umd/Recharts.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/zoomist@2/zoomist.umd.js"></script>
+<script src="{{ base_url }}/assets/javascripts/bundle.js"></script>
+{% endblock %}
